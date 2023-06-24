@@ -1,0 +1,93 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 628px;
+    padding-top: 50px;
+    
+  }
+  .cart .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 2px solid #f0f0f0;
+    outline-offset: 20px;
+  }
+  
+  .cart .card img {
+    width: 110px;
+    height: 110px;
+    
+  }
+  .cart .card p {
+    width: 200px;
+    
+  }
+  .cart .card .quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  
+  .cart .card .quantity p {
+    width: 50px;
+    text-align: center;
+  }
+  .cart .card .quantity button {
+    width: 50px;
+    
+  }
+  .cart .card .quantity button:hover {
+    width: 50px;
+    background-color: rgb(1, 1, 1);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .cart .total {
+    text-align: right;      
+  }
+
+   .subtot{
+    padding-right: 130px;
+   }
+
+   .btns{
+    padding-right: 70px;
+   }
+
+  .btns button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 254, 254);
+    color: black;
+    
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center !important;
+    flex-direction: row;
+  }
+
+  .CartBttn {
+    background-color: transparent;
+    border: 2px solid rgb(7, 2, 2);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  .CartBttn:hover {
+    background-color: rgb(1, 1, 1);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+
+
+  
