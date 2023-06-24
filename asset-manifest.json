@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/instashop/static/css/main.0487e727.css",
+    "main.js": "/instashop/static/js/main.48da46c6.js",
+    "index.html": "/instashop/index.html",
+    "main.0487e727.css.map": "/instashop/static/css/main.0487e727.css.map",
+    "main.48da46c6.js.map": "/instashop/static/js/main.48da46c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0487e727.css",
+    "static/js/main.48da46c6.js"
+  ]
+}
